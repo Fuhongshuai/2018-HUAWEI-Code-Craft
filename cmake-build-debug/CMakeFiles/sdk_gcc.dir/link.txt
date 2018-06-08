@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/sdk_gcc.dir/ecs/ecs.cpp.o CMakeFiles/sdk_gcc.dir/ecs/io.cpp.o CMakeFiles/sdk_gcc.dir/ecs/LinearRegression.cpp.o CMakeFiles/sdk_gcc.dir/ecs/predict.cpp.o CMakeFiles/sdk_gcc.dir/ecs/Utils.cpp.o  -o sdk_gcc 

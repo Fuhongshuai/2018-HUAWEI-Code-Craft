@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ecs"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/e/Clion/ecs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Clion/Cygwin/bin/make.exe -j4 -f &quot;/cygdrive/e/Clion/ecs/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/Clion/Cygwin/bin/make.exe -j4 -f &quot;/cygdrive/e/Clion/ecs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Clion/Cygwin/bin/make.exe -j4 -f &quot;/cygdrive/e/Clion/ecs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Clion/Cygwin/bin/make.exe -j4 -f &quot;/cygdrive/e/Clion/ecs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/e/Clion/ecs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Clion/Cygwin/bin/make.exe -j4 -f &quot;/cygdrive/e/Clion/ecs/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/Clion/Cygwin/bin/make.exe -j4 -f &quot;/cygdrive/e/Clion/ecs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Clion/Cygwin/bin/make.exe -j4 -f &quot;/cygdrive/e/Clion/ecs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Clion/Cygwin/bin/make.exe -j4 -f &quot;/cygdrive/e/Clion/ecs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/e/Clion/ecs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Clion/Cygwin/bin/make.exe -j4 -f &quot;/cygdrive/e/Clion/ecs/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/Clion/Cygwin/bin/make.exe -j4 -f &quot;/cygdrive/e/Clion/ecs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Clion/Cygwin/bin/make.exe -j4 -f &quot;/cygdrive/e/Clion/ecs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Clion/Cygwin/bin/make.exe -j4 -f &quot;/cygdrive/e/Clion/ecs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ecs">
+				<Option output="/cygdrive/e/Clion/ecs/bin/ecs.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/e/Clion/ecs/cmake-build-debug/../bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/e/Clion/ecs/lib"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Clion/Cygwin/bin/make.exe -j4 -f &quot;/cygdrive/e/Clion/ecs/cmake-build-debug/Makefile&quot;  VERBOSE=1 ecs"/>
+					<CompileFile command="E:/Clion/Cygwin/bin/make.exe -j4 -f &quot;/cygdrive/e/Clion/ecs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Clion/Cygwin/bin/make.exe -j4 -f &quot;/cygdrive/e/Clion/ecs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Clion/Cygwin/bin/make.exe -j4 -f &quot;/cygdrive/e/Clion/ecs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ecs/fast">
+				<Option output="/cygdrive/e/Clion/ecs/bin/ecs.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/e/Clion/ecs/cmake-build-debug/../bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/e/Clion/ecs/lib"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Clion/Cygwin/bin/make.exe -j4 -f &quot;/cygdrive/e/Clion/ecs/cmake-build-debug/Makefile&quot;  VERBOSE=1 ecs/fast"/>
+					<CompileFile command="E:/Clion/Cygwin/bin/make.exe -j4 -f &quot;/cygdrive/e/Clion/ecs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Clion/Cygwin/bin/make.exe -j4 -f &quot;/cygdrive/e/Clion/ecs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Clion/Cygwin/bin/make.exe -j4 -f &quot;/cygdrive/e/Clion/ecs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/e/Clion/ecs/LinearRegression.cpp">
+			<Option target="ecs"/>
+		</Unit>
+		<Unit filename="/cygdrive/e/Clion/ecs/LinearRegression.h">
+			<Option target="ecs"/>
+		</Unit>
+		<Unit filename="/cygdrive/e/Clion/ecs/Utils.cpp">
+			<Option target="ecs"/>
+		</Unit>
+		<Unit filename="/cygdrive/e/Clion/ecs/Utils.h">
+			<Option target="ecs"/>
+		</Unit>
+		<Unit filename="/cygdrive/e/Clion/ecs/ecs.cpp">
+			<Option target="ecs"/>
+		</Unit>
+		<Unit filename="/cygdrive/e/Clion/ecs/io.cpp">
+			<Option target="ecs"/>
+		</Unit>
+		<Unit filename="/cygdrive/e/Clion/ecs/predict.cpp">
+			<Option target="ecs"/>
+		</Unit>
+		<Unit filename="/cygdrive/e/Clion/ecs/predict.h">
+			<Option target="ecs"/>
+		</Unit>
+		<Unit filename="/cygdrive/e/Clion/ecs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

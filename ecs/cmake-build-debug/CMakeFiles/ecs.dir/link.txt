@@ -1,0 +1,1 @@
+E:/Clion/Cygwin/bin/c++.exe  -O3 -Wall -std=c++11  -Wl,--enable-auto-import CMakeFiles/ecs.dir/LinearRegression.cpp.o CMakeFiles/ecs.dir/Utils.cpp.o CMakeFiles/ecs.dir/ecs.cpp.o CMakeFiles/ecs.dir/io.cpp.o CMakeFiles/ecs.dir/predict.cpp.o  -o ../bin/ecs.exe -Wl,--out-implib,../bin/libecs.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

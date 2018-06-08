@@ -1,0 +1,3 @@
+/Users/fuhongshuai/Downloads/sdk-gcc/build/CMakeFiles/rebuild_cache.dir
+/Users/fuhongshuai/Downloads/sdk-gcc/build/CMakeFiles/edit_cache.dir
+/Users/fuhongshuai/Downloads/sdk-gcc/build/CMakeFiles/ecs.dir

@@ -1,0 +1,3 @@
+/Users/fuhongshuai/Downloads/sdk-gcc/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/fuhongshuai/Downloads/sdk-gcc/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/fuhongshuai/Downloads/sdk-gcc/cmake-build-debug/CMakeFiles/sdk_gcc.dir

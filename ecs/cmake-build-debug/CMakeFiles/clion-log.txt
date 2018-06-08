@@ -1,0 +1,25 @@
+"C:\Users\zhongwen XU\.CLion2017.3\system\cygwin_cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=E:/Clion/Cygwin/bin/make.exe -DCMAKE_C_COMPILER=E:/Clion/Cygwin/bin/gcc.exe -DCMAKE_CXX_COMPILER=E:/Clion/Cygwin/bin/c++.exe -G "CodeBlocks - Unix Makefiles" /cygdrive/e/Clion/ecs
+CMake Warning at /cygdrive/c/Users/zhongwen XU/.CLion2017.3/system/cygwin_cmake/share/cmake-3.9.6/Modules/Platform/CYGWIN.cmake:15 (message):
+  CMake no longer defines WIN32 on Cygwin!
+
+  (1) If you are just trying to build this project, ignore this warning or
+  quiet it by setting CMAKE_LEGACY_CYGWIN_WIN32=0 in your environment or in
+  the CMake cache.  If later configuration or build errors occur then this
+  project may have been written under the assumption that Cygwin is WIN32.
+  In that case, set CMAKE_LEGACY_CYGWIN_WIN32=1 instead.
+
+  (2) If you are developing this project, add the line
+
+    set(CMAKE_LEGACY_CYGWIN_WIN32 0) # Remove when CMake >= 2.8.4 is required
+
+  at the top of your top-level CMakeLists.txt file or set the minimum
+  required version of CMake to 2.8.4 or higher.  Then teach your project to
+  build on Cygwin without WIN32.
+Call Stack (most recent call first):
+  /cygdrive/c/Users/zhongwen XU/.CLion2017.3/system/cygwin_cmake/share/cmake-3.9.6/Modules/CMakeSystemSpecificInformation.cmake:26 (include)
+  CMakeLists.txt:4 (project)
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/e/Clion/ecs/cmake-build-debug
